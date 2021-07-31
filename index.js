@@ -20,3 +20,9 @@ let firstName, lastName;
 firstName = "Shakil";
 lastName = "Mahmud";
 console.log(lastName);
+
+// How to use variables:
+x = 5;
+y = 6;
+var z = x + y;
+console.log(z);
