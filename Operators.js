@@ -27,5 +27,9 @@ let Num1 = 5;
 let Power = Math.pow(Num1, 2);
 console.log(Power);
 
+for (let i = 0; i <= 6; i++) {
+    return i;
+}
+
 
 

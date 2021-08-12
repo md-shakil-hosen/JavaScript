@@ -22,8 +22,14 @@ function toCelsius(f) {
 }
 console.log(Celsius);
 
-// Local Variables
-function xFunction() {
-    let carName = 'Shakil  Mahmud';
-    return typeof carName;
-}
+// Object Definition
+
+// 1st way 
+const person = { firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue" };
+console.log(person.firstName + ' is ' + person.age + ' Years Old ');
+// 2nd Way 
+console.log(person['firstName'] + ' is ' + person['age'] + ' Years Old ');
+
+// JavaScript Strings
+let text = 'dhdwgbfwefejfh';
+console.log(text.length);
